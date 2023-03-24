@@ -21,7 +21,8 @@ html {
 
 .title-styles {
 	font-family: 'Raleway', sans-serif;
-	font-size: 250%;
+	font-size: 24px;
+	color: #fff;
 }
 
 .header-icon {
@@ -31,14 +32,13 @@ html {
 
 header {
 	position: relative;
-	height: 520px;
-	min-height: 450px;
+	height: 100vh !important;
 	width: 100%;
 	background-size: cover;
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #1E3163;
+	background-color: #0e1728;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -74,27 +74,26 @@ header {
 
 .language {
 	font-size: 25px;
-	background-color: #2D46B9;
+	background-color: #0e1728;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
 
 header h1 {
-	font-size: 400%;
+	font-size: 36px;
 	text-align: center;
-	font-weight: 600 !important;
-	color: #353239;
+	color: #fff;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border: 5px solid #0e1728;
 }
 
 .slider-tab {
-	background-color: #D7CAAA;
+	background-color: #0e1728;
 	height: 25px;
 }
 
@@ -103,12 +102,11 @@ header h1 {
 }
 
 .styles_typicalWrapper__1_Uvh::after {
-	cursor: none !important;
 	display: none;
 }
 
 #about {
-	background: #fff;
+	background: #fff3e5;
 	overflow: hidden;
 }
 
@@ -117,7 +115,7 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
+	color: #0e1728;
 	text-align: center;
 }
 
@@ -146,7 +144,7 @@ header h1 {
 }
 
 .foto div:after {
-	color: #333;
+	color: #fff;
 	font-size: 25px;
 	content: attr(title);
 	position: relative;
@@ -168,34 +166,36 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
+	color: #fff;
 	text-align: center;
 }
 
 .polaroid img {
 	display: block;
-	max-width: 200px;
+	max-width: 100%;
+	height: 400px;
+	border-radius: 50%;
 }
 
-.polaroid span {
-	background: #ffffff;
-	display: inline-block;
-	margin: 55px 75px 30px;
-	padding: 15px 15px 30px;
-	text-align: center;
-	text-decoration: none;
-	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-webkit-transition: all .20s linear;
-	-moz-transition: all .20s linear;
-	transition: all .20s linear;
-	z-index: 0;
-	position: relative;
-}
+// .polaroid span {
+// 	background: #ffffff;
+// 	display: inline-block;
+// 	margin: 55px 75px 30px;
+// 	padding: 15px 15px 30px;
+// 	text-align: center;
+// 	text-decoration: none;
+// 	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+// 	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+// 	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+// 	-webkit-transition: all .20s linear;
+// 	-moz-transition: all .20s linear;
+// 	transition: all .20s linear;
+// 	z-index: 0;
+// 	position: relative;
+// }
 
 .link-href {
-	color: black;
+	color: #fff;
 }
 
 .wave {
@@ -221,7 +221,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #fff3e5;
 }
 
 .experience-icon {
@@ -247,7 +247,7 @@ header h1 {
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
 	background-color: #f9f5e9 !important;
-	color: black;
+	color: #fff;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -319,7 +319,7 @@ header h1 {
 }
 
 .close-icon {
-	color: black;
+	color: #fff;
 	font-weight: lighter !important;
 }
 
@@ -330,20 +330,8 @@ header h1 {
 	font-size: 12px;
 }
 
-.awssld__next {
-	outline: none !important;
-}
-
-.awssld__prev {
-	outline: none !important;
-}
-
-.loader-bar-color {
-	color: black !important;
-}
-
 #portfolio {
-	background: #efe1bd;
+	background: #fff3e5;
 	padding-bottom: 5%;
 }
 
@@ -379,7 +367,7 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #0e1728;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -404,7 +392,7 @@ header h1 {
 }
 
 footer {
-	background: #1F1F1F;
+	background: #0e1728;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
@@ -428,3 +416,14 @@ footer a:focus {
 	margin-top: 50px;
 	font-size: 22px;
 }
+
+// Jesse edits
+
+.react-switch,
+.language {
+	display: none !important;
+}
+
+// section {
+// 	height: 80vh;
+// }

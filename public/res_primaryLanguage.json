@@ -65,7 +65,7 @@
       {
         "title": "Jugo Austin",
         "startDate": "2017",
-        "description": "I created a web interface that incorporates the typography and graphics of the brand's hierarchies, along with subtle animations and generous white space, to replicate the in-person experience on the digital platform.",
+        "description": "I created a web interface that incorporates the typography and graphics of the brand's hierarchies, along with subtle animations and generous white space, to replicate the in-person experience on the digital platform. The site was built to be responsive, ensuring that it would look great on any device.",
         "images": [
           "images/portfolio/jugo/jugo2.png",
           "images/portfolio/jugo/jugo1.png"
@@ -93,7 +93,7 @@
       {
         "title": "Shed Barber",
         "startDate": "2016",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": "Shed Barber is a popular barber shop located in Austin, Texas. I worked to create a website that would showcase their trendy aesthetic and provide an easy-to-use platform for customers to book appointments and learn about their services. To meet the client's requirements, Wordpress was used allowing Specht's team to add new projects and update site content easily. On the front end, The theme was built using clean HTML, SCSS, and JavaScript best practices, ensuring that the site would be lightweight, fast, and user-friendly.",
         "images": [
           "images/portfolio/shed/shed1.png",
           "images/portfolio/shed/shed2.png"
@@ -101,23 +101,27 @@
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-sass-original",
+            "name": "scss"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-wordpress-plain",
+            "name": "Wordpress"
           }
         ]
       },
       {
         "title": "Specht Architects",
         "startDate": "2015",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "description": "To meet the client's requirements, this site was built with WordPress as the content management system (CMS). The theme was built using clean HTML, SCSS, and JavaScript best practices, ensuring that the site would be lightweight, fast, and user-friendly. The site featured high-quality images of the firm's completed projects, which showcased their architectural prowess. The site included smooth animations that added a subtle touch of elegance.",
         "images": [
           "images/portfolio/specht/specht1.png",
           "images/portfolio/specht/specht2.png"
@@ -125,12 +129,20 @@
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-sass-original",
+            "name": "scss"
           },
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-wordpress-plain",
+            "name": "Wordpress"
           }
         ]
       },
@@ -173,15 +185,15 @@
           "Javascript"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Scss",
+          "React",
+          "Wordpress",
+          "PHP",
+          "HTML5",
+          "Computer Accessibility",
+          "Mentoring",
+          "Project Management"
         ]
       },
       {
@@ -192,11 +204,13 @@
           "Vue.js"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Scss",
+          "Vue.js",
+          "Node.js",
+          "HTML5",
+          "Computer Accessibility",
+          "Sketch"
         ]
       },
       {
@@ -207,11 +221,15 @@
           "Scss"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Scss",
+          "Wordpress",
+          "PHP",
+          "HTML5",
+          "Twitter Bootstrap",
+          "Contentful CMS",
+          "Adobe Photoshop",
+          "Adobe Illustrator"
         ]
       },
       {
@@ -222,11 +240,12 @@
           "Ruby on Rails"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Scss",
+          "Ruby on Rails",
+          "Ruby",
+          "HTML5",
+          "Zurb Foundation"
         ]
       }
     ]

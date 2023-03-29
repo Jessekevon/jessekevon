@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/jessekevon-2023/static/css/main.a50ec937.chunk.css",
+    "main.js": "/jessekevon-2023/static/js/main.b4d4923c.chunk.js",
+    "main.js.map": "/jessekevon-2023/static/js/main.b4d4923c.chunk.js.map",
+    "runtime-main.js": "/jessekevon-2023/static/js/runtime-main.62d2b04d.js",
+    "runtime-main.js.map": "/jessekevon-2023/static/js/runtime-main.62d2b04d.js.map",
+    "static/css/2.d64471e2.chunk.css": "/jessekevon-2023/static/css/2.d64471e2.chunk.css",
+    "static/js/2.694ad8ef.chunk.js": "/jessekevon-2023/static/js/2.694ad8ef.chunk.js",
+    "static/js/2.694ad8ef.chunk.js.map": "/jessekevon-2023/static/js/2.694ad8ef.chunk.js.map",
+    "index.html": "/jessekevon-2023/index.html",
+    "precache-manifest.a4dcaa334d267d6f536f8f4cc6bf7449.js": "/jessekevon-2023/precache-manifest.a4dcaa334d267d6f536f8f4cc6bf7449.js",
+    "service-worker.js": "/jessekevon-2023/service-worker.js",
+    "static/css/2.d64471e2.chunk.css.map": "/jessekevon-2023/static/css/2.d64471e2.chunk.css.map",
+    "static/css/main.a50ec937.chunk.css.map": "/jessekevon-2023/static/css/main.a50ec937.chunk.css.map",
+    "static/js/2.694ad8ef.chunk.js.LICENSE.txt": "/jessekevon-2023/static/js/2.694ad8ef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62d2b04d.js",
+    "static/css/2.d64471e2.chunk.css",
+    "static/js/2.694ad8ef.chunk.js",
+    "static/css/main.a50ec937.chunk.css",
+    "static/js/main.b4d4923c.chunk.js"
+  ]
+}

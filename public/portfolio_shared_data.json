@@ -5,13 +5,18 @@
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/Jessekevon/",
           "class": "fab fa-github"
         },
         {
           "name": "instagram",
           "url": "https://www.instagram.com",
           "class": "fab fa-instagram"
+        },
+        {
+          "name": "resume",
+          "url": "https://www.instagram.com",
+          "class": "fa fa-file"
         }
       ],
       "image": "myProfile.jpg"

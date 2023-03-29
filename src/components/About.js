@@ -9,18 +9,11 @@ class About extends Component {
     if (this.props.sharedBasicInfo) {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
     }
-    if (this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.about;
-      var hello = this.props.resumeBasicInfo.description_header;
-      var about = this.props.resumeBasicInfo.description;
-    }
 
     return (
-      <section id="about">
+      <section className="about">
         <div className="col-md-12">
-          <h1 style={{ color: "black" }}>
-            <span>{sectionName}</span>
-          </h1>
+          <h1>About</h1>
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
               <div className="polaroid">
@@ -36,37 +29,9 @@ class About extends Component {
 
             <div className="col-md-8 center">
               <div className="col-md-10">
-                <div className="card">
-                  <div className="card-header">
-                    <span
-                      className="iconify"
-                      data-icon="emojione:red-circle"
-                      data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:yellow-circle"
-                      data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:green-circle"
-                      data-inline="false"
-                    ></span>
-                  </div>
-                  <div
-                    className="card-body font-trebuchet text-justify ml-3 mr-3"
-                    style={{
-                      height: "auto",
-                      fontSize: "132%",
-                      lineHeight: "200%",
-                    }}
-                  >
-                    {about}
-                  </div>
-                </div>
+                <p>Jesse Kevon is an experienced web engineer with a focus on front-end and UI development. With nine years of experience, Jesse has honed his skills to create custom, responsive, and dynamic WordPress themes, marketing sites, email templates, and mobile/web apps. He takes pride in writing clean, semantic code using React, HTML5, Sass, Javascript, and PHP, ensuring visually appealing, efficient, and effective projects.</p>
+                <br/>
+                <p>Jesse has worked with diverse clients across various industries, offering tailored solutions to help them achieve their goals. He is a creative problem-solver who enjoys taking on challenging projects, delivering high-quality results. Whether developing a new website or improving an existing one, Jesse brings expertise, dedication, and passion to every project he undertakes.</p>
               </div>
             </div>
           </div>

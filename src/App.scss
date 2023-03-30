@@ -453,10 +453,14 @@ section {
 	animation: scroll 2.5s infinite;
 	-webkit-animation: scroll 2.5s infinite;
 	margin: 0 auto;
-	bottom: 10vh;
+	bottom: 20vh;
 	position: absolute;
 	left: 0;
 	right: 0;
+
+	@media screen and (min-width: 768px) {
+		bottom: 10vh;
+	}	
 
 	&::after {
 		content: '';
